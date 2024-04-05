@@ -1,0 +1,8 @@
+.toDoContainer {
+  display: flex;
+}
+
+.toDoTitle {
+  min-width: 300px;
+  text-align: left;
+}
