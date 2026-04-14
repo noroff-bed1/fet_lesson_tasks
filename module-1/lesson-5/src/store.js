@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
  
-const API_URL = 'https://bedos-jip-ca-servers.onrender.com/products';
+const API_URL = 'http://bedos.bed-dev.online/products';
  
 const useProductStore = create((set) => ({
   products: [],
